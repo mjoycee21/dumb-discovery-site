@@ -1,18 +1,19 @@
 ---
 layout: post
-title: "This Is a Demo Article"
+title: "Demo Article Page"
+subtitle: "Just a quick article to show how posts work"
 date: 2025-07-16
-categories: [demo]
-tags: [example, article]
+background: '/img/posts/demo-bg.jpg'
 ---
 
 This is a **demo article** written in Markdown.
 
-## Section Heading
+You can add _italic_, **bold**, [links](https://example.com), and even:
 
-You can write whatever you want here — lists, links, images, etc.
+- Bullet points
+- Code snippets
+- Quotes
 
-- First bullet
-- Second bullet
+> Like this quote!
 
-Enjoy!
+Enjoy crafting content the Markdown way.
