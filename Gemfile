@@ -20,3 +20,8 @@ group :jekyll_plugins do
 gem "ffi", "~> 1.15.5"
 
 end
+gem 'csv'
+gem 'base64'
+gem 'bigdecimal'
+gem 'rexml'
+

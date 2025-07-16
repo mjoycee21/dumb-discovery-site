@@ -3,8 +3,11 @@ GEM
   specs:
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
+    base64 (0.3.0)
+    bigdecimal (3.2.2)
     colorator (1.1.0)
     concurrent-ruby (1.1.4)
+    csv (3.3.5)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -54,6 +57,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
+    rexml (3.4.1)
     rouge (3.3.0)
     safe_yaml (1.0.5)
     sass (3.7.3)
@@ -67,6 +71,9 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  base64
+  bigdecimal
+  csv
   ffi (~> 1.15.5)
   jekyll-archives
   jekyll-feed
@@ -74,6 +81,7 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   kramdown
+  rexml
   rouge
 
 BUNDLED WITH
